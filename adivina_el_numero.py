@@ -21,13 +21,14 @@ def run():
     scores.append(intento)
 
 def keep():
-    option = str(input('Deseas seguir jugando? (S/N): '))
-    if(option == "Y"):
-        return True
-    elif(option == "N"):
-        return False
-    else:
-        option = str(input('Ingresa una opcion valida (S/N): '))
+    while True:
+        option = str(input('Deseas seguir jugando? (S/N): '))
+        if(option == "S"):
+            return True
+        elif(option == "N"):
+            return False
+        else:
+            option = print('Ingresa una opcion valida')
 
 if __name__ == '__main__':
     run()
