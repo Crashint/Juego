@@ -10,7 +10,7 @@ def run():
 
 def juego(numero_aleatorio):
     numero_elegido = int(input('Elige un numero del 1 al 100: '))
-    intento = 0
+    intento = 1
     while numero_elegido != numero_aleatorio:
         if numero_elegido < numero_aleatorio:
             numero_elegido = int(input('Elige un número más grande: '))
