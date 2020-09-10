@@ -16,7 +16,7 @@ def juego(numero_aleatorio):
             numero_elegido = int(input('Elige un número más grande: '))
         else:
             numero_elegido = int(input('Elige un número más pequeño: '))
-    intento += 1  
+        intento += 1  
     intento = str(intento)
     print('¡Ganaste! en ' + intento + ' intentos')
     
