@@ -1,6 +1,6 @@
 import random
 
-
+#cspell: disable */
 def run():
     jugar = True
     numero_aleatorio = random.randint(1, 100)
