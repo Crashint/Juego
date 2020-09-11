@@ -3,12 +3,12 @@ import random
 #cspell: disable */
 def run():
     jugar = True
-    numero_aleatorio = random.randint(1, 100)
     while jugar:
-        juego(numero_aleatorio)
+        juego()
         jugar = keep()
 
-def juego(numero_aleatorio):
+def juego():
+    numero_aleatorio = random.randint(1, 100)
     numero_elegido = int(input('Elige un numero del 1 al 100: '))
     intento = 1
     while numero_elegido != numero_aleatorio:
